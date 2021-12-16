@@ -9,4 +9,8 @@ class Todo
     "Welcome to the TODO app!"
   end
 
+  def add(todo)
+    list << "1. book restaurant"
+  end
+
 end
